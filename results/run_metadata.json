@@ -1,0 +1,31 @@
+{
+  "timestamp_utc": "2026-10-23T11:05:55.679889+00:00",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "settings": {
+    "mode": "all",
+    "source": 0,
+    "target": 1,
+    "voxel": 0.02,
+    "threshold": 0.05,
+    "output": "results"
+  },
+  "evaluation_voxel_m": 0.01,
+  "evaluation_distance_m": 0.03,
+  "OMP_NUM_THREADS": "4",
+  "packages": {
+    "numpy": "2.2.6",
+    "open3d": "0.19.0",
+    "matplotlib": "3.10.7",
+    "pillow": "11.3.0"
+  },
+  "source_sha256": {
+    "figures.py": "e1ee8316819934b087fd35898da63f6c982dbea3fa8ad7d87709acee04eaa667",
+    "pipeline.py": "a8650f21ea46799bf2e09bcf9a384fb7de3219fde631c72755805265205acc1c",
+    "prepare_data.py": "f6c8bc2bdb0349dcf04ec194395e658f9c54989195cb3bdeb52ba14e97397d05",
+    "run_experiments.py": "a08a69affafdab8a4f5b9d0cc30aa88f62353e43e7d9a0f30724f1c370543c82"
+  },
+  "data_manifest_sha256": "dedc079def892b4e45fbb88bccda288ed2dcad83b01b52aa4d3e1c1b8c57bad3",
+  "number_of_runs": 14,
+  "reference_pose_used_for_initialization": false
+}

@@ -1,0 +1,15 @@
+identity_baseline            voxel=0.020 threshold=0.050 fitness=0.9658 RMSE=0.006365988542264343
+parameter_sweep              voxel=0.010 threshold=0.020 fitness=0.9655 RMSE=0.006352094603784213
+parameter_sweep              voxel=0.010 threshold=0.050 fitness=0.9658 RMSE=0.006359639905085243
+parameter_sweep              voxel=0.010 threshold=0.100 fitness=0.9661 RMSE=0.0063854713957514015
+parameter_sweep              voxel=0.020 threshold=0.020 fitness=0.9656 RMSE=0.006352868567861738
+parameter_sweep              voxel=0.020 threshold=0.100 fitness=0.9660 RMSE=0.006391107729452845
+parameter_sweep              voxel=0.040 threshold=0.020 fitness=0.9661 RMSE=0.006389103066205343
+parameter_sweep              voxel=0.040 threshold=0.050 fitness=0.9661 RMSE=0.006390306725883912
+parameter_sweep              voxel=0.040 threshold=0.100 fitness=0.9661 RMSE=0.006396713427166957
+poor_initial_guess           voxel=0.020 threshold=0.050 fitness=0.0592 RMSE=0.01740116412311963
+restricted_image_coverage    voxel=0.020 threshold=0.050 fitness=0.3857 RMSE=0.007328585819575777
+no_matches_sanity_check      voxel=0.020 threshold=0.050 fitness=0.0000 RMSE=None
+additional_pair              voxel=0.020 threshold=0.050 fitness=0.8999 RMSE=0.006401825626512502
+additional_pair              voxel=0.020 threshold=0.050 fitness=0.7020 RMSE=0.01260799817575411
+Wrote 14 experiments and report: results/report.html

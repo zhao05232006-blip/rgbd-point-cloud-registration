@@ -1,0 +1,10 @@
+test_backprojection_coordinates_colors_and_invalid_depths (test_pipeline.PipelineTests.test_backprojection_coordinates_colors_and_invalid_depths) ... ok
+test_backprojection_matches_open3d_with_same_camera_parameters (test_pipeline.PipelineTests.test_backprojection_matches_open3d_with_same_camera_parameters) ... ok
+test_icp_recovers_small_known_pose_on_nonplanar_cloud (test_pipeline.PipelineTests.test_icp_recovers_small_known_pose_on_nonplanar_cloud) ... ok
+test_reference_transform_maps_source_camera_into_target_camera (test_pipeline.PipelineTests.test_reference_transform_maps_source_camera_into_target_camera) ... ok
+test_score_has_no_rmse_when_there_are_no_correspondences (test_pipeline.PipelineTests.test_score_has_no_rmse_when_there_are_no_correspondences) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.025s
+
+OK
