@@ -1,0 +1,17 @@
+# Local Python environment and generated caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+
+# Separate local practice runs
+results_practice/
+results_local*/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

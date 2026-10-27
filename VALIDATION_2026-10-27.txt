@@ -1,0 +1,10 @@
+Validation date: 27 October 2026
+Original experiment date: 23 October 2026
+Environment: existing Python 3.12 project environment; OMP_NUM_THREADS=4.
+Commands: python -m unittest discover -s tests -v; python run_experiments.py --output <separate validation directory>.
+All 5 unit tests passed (0.104 seconds in this run).
+All 14 experiments completed. No source code or original result files were changed.
+Original and rerun evaluation fitness, matched-point RMSE, reverse fitness, and reference-pose difference metrics agree within 1e-8.
+Maximum absolute difference across compared values: 4.26991775270835E-13
+Run times are machine-dependent and were not compared as accuracy metrics.
+This execution verifies the software, not the candidate's independent mastery or hardware deployment experience.
