@@ -1,0 +1,242 @@
+{
+  "dataset": "Open3D SampleFountainRGBDImages (six selected keyframes)",
+  "prepared_at_utc": "2026-10-23T09:42:51.034000+00:00",
+  "source": "https://www.qianyi.info/scenedata.html",
+  "download": "https://github.com/isl-org/open3d_downloads/releases/download/20220201-data/SampleFountainRGBDImages.zip",
+  "credit": "Qian-Yi Zhou and Vladlen Koltun, Color Map Optimization for 3D Reconstruction with Consumer Depth Cameras, SIGGRAPH 2014.",
+  "intrinsic_note": "PrimeSenseDefault assumed by Open3D's LOG reader; not a calibration performed in this project.",
+  "pose_note": "Dataset-estimated poses, not independent ground truth. Used for diagnostics only, never ICP initialization.",
+  "width": 640,
+  "height": 480,
+  "K": [
+    [
+      525.0,
+      0.0,
+      319.5
+    ],
+    [
+      0.0,
+      525.0,
+      239.5
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "depth_scale": 1000.0,
+  "depth_max_m": 3.0,
+  "frames": [
+    {
+      "color": "frame_00_color.jpg",
+      "color_original": "0000010-000001228920.jpg",
+      "color_sha256": "6d0e9d1b453862dd58f5ddd887152a390940eeeef17340f4c760e7bf4927af68",
+      "depth": "frame_00_depth.png",
+      "depth_original": "0000038-000001234662.png",
+      "depth_sha256": "077c69cbb00d399696297fadd1fe1eb1786e75e35e6bd2a952dbe5d287ed3464",
+      "index": 0,
+      "world_to_camera": [
+        [
+          0.9999259613338078,
+          -0.012080149186441043,
+          -0.0010500663455567363,
+          -0.7290755352079153
+        ],
+        [
+          0.012077430942232162,
+          0.999923394372504,
+          -0.002595349762723465,
+          -0.751629311983138
+        ],
+        [
+          0.00108134065863569,
+          0.002582473926750252,
+          0.9999951615013103,
+          0.3209356413248127
+        ],
+        [
+          -0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "color": "frame_01_color.jpg",
+      "color_original": "0000031-000004096400.jpg",
+      "color_sha256": "0ac257b7540715fbe202d34d7aa52d2837a81ec0f549119c2ae7eeffad204880",
+      "depth": "frame_01_depth.png",
+      "depth_original": "0000124-000004104418.png",
+      "depth_sha256": "56f9a4e1ed95e50b7191074831430073dfff6a3d36eabe97ba38f69c87c4baf7",
+      "index": 1,
+      "world_to_camera": [
+        [
+          0.984922007950728,
+          -0.02950897903738369,
+          -0.17045502247933522,
+          -0.5333917623801848
+        ],
+        [
+          0.02756801362609091,
+          0.9995249076768407,
+          -0.013742950807886527,
+          -0.7055334974279927
+        ],
+        [
+          0.1707793275716349,
+          0.008836682111893781,
+          0.9852692356108805,
+          0.2815792222318073
+        ],
+        [
+          -0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "color": "frame_02_color.jpg",
+      "color_original": "0000044-000005871507.jpg",
+      "color_sha256": "68a584752133c723360719a2e7700d9ca5802951825c1c598e225c4240b7d972",
+      "depth": "frame_02_depth.png",
+      "depth_original": "0000177-000005872988.png",
+      "depth_sha256": "53fd7c544dfa4cb439536799ea41b5ae99b00ec2e78170b5335bbd67c85930e7",
+      "index": 2,
+      "world_to_camera": [
+        [
+          0.9826807364737319,
+          0.02176307771778775,
+          -0.1840208263396028,
+          -0.5171262596757475
+        ],
+        [
+          -0.015323865817886567,
+          0.9992208428227622,
+          0.036341808895635014,
+          -0.604850717468331
+        ],
+        [
+          0.184668282890541,
+          -0.03289249665368512,
+          0.9822485198619658,
+          0.29100712735364404
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "color": "frame_03_color.jpg",
+      "color_original": "0000064-000008602440.jpg",
+      "color_sha256": "e2854b1fe7a3756c3ff95b3ed9dcd4bed2974273f678477bcecf6f7b7d2cf846",
+      "depth": "frame_03_depth.png",
+      "depth_original": "0000259-000008609267.png",
+      "depth_sha256": "224f9ce4a8117ea8a848b07adf11b145de39d7528218a984695d07f0f60fba6f",
+      "index": 3,
+      "world_to_camera": [
+        [
+          0.9115330102300497,
+          0.14238328589318625,
+          -0.3857867185905517,
+          -0.38400873486538556
+        ],
+        [
+          -0.13527871552274376,
+          0.9897532720731098,
+          0.04565362557893422,
+          -0.5083880890604882
+        ],
+        [
+          0.3883346930262055,
+          0.010574172253200616,
+          0.9214559164884928,
+          0.12833228301303828
+        ],
+        [
+          -0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "color": "frame_04_color.jpg",
+      "color_original": "0000110-000014883587.jpg",
+      "color_sha256": "c61dc24295fd6f633cfb474331e57759f4a704692c386e9c730f48a5a0bcd3ab",
+      "depth": "frame_04_depth.png",
+      "depth_original": "0000447-000014882686.png",
+      "depth_sha256": "19b62c957df452b71c89ce526fbb7af129c48bced9db012200e058d3eca0a518",
+      "index": 4,
+      "world_to_camera": [
+        [
+          0.7654775193586583,
+          0.2485591387269725,
+          -0.5935110182576007,
+          -0.1655678056109423
+        ],
+        [
+          -0.2085368732229352,
+          0.9684235032971125,
+          0.1366112249093504,
+          -0.4629970069352675
+        ],
+        [
+          0.6087265727825909,
+          0.0191957327383732,
+          0.7931434850148298,
+          0.08206934460159764
+        ],
+        [
+          -0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "color": "frame_05_color.jpg",
+      "color_original": "0000156-000021164733.jpg",
+      "color_sha256": "337853322918055901e3cabd81ac40b9f7bc13f802e0080e762d64adb026e7d6",
+      "depth": "frame_05_depth.png",
+      "depth_original": "0000635-000021156105.png",
+      "depth_sha256": "6c82609cc70eafcb374bff2e98d37beff020455a85a42e8ea3df19d4ea3d887d",
+      "index": 5,
+      "world_to_camera": [
+        [
+          0.7700025109765112,
+          0.15796112689948094,
+          -0.6181718009213475,
+          -0.048101746512814667
+        ],
+        [
+          -0.0792713544448091,
+          0.9850443043543248,
+          0.1529677159585469,
+          -0.4034866868711351
+        ],
+        [
+          0.6330905141529263,
+          -0.06878288687948445,
+          0.7710128614757159,
+          0.09980033380251305
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ]
+}
